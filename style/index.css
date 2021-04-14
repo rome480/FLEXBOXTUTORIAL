@@ -1,0 +1,48 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .box:nth-child(1) {
+  background: red;
+  height: 200px;
+  width: 200px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 500px;
+          flex: 0 1 500px;
+}
+
+.main .box:nth-child(2) {
+  background: yellow;
+  height: 200px;
+  width: 200px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0  0 250px;
+          flex: 0  0 250px;
+}
+
+.main .box:nth-child(3) {
+  background: green;
+  height: 200px;
+  width: 200px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0  0 250px;
+          flex: 0  0 250px;
+}
+
+.main .box:nth-child(4) {
+  background: blue;
+  height: 200px;
+  width: 200px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0  0 250px;
+          flex: 0  0 250px;
+}
+/*# sourceMappingURL=index.css.map */

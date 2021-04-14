@@ -1,0 +1,83 @@
+html, body
+{
+    padding: 0;
+    margin: 0;
+}
+
+.main
+{
+    height: 100vh;
+    display: flex;
+    // flex-direction: column;
+
+
+    // flex-direction: column;
+    // justify-content: flex-start;
+    // align-items: center   ;
+
+    // justify-content: space-evenly ;
+    // flex-start leftside
+    // flex-end   rightside
+    // space-around double ng space sa each content
+    // space-between
+    // space-evenly same space between each content
+
+    // flex-flow: column & row wrap;
+    
+    // flex-direction
+    // columns: ;
+    // row
+    // columns-reverse 
+    // row-reverse
+    
+    // flex-wrap: nowrap; default and wrap 
+
+    .box:nth-child(1)
+    {
+        background: red;
+        height: 200px;
+        width: 200px;
+        // order: 1;
+        // flex-grow: 2;
+        // flex-shrink: 2;
+        // flex-basis: 300px ;
+        flex: 0 1 500px;
+    }
+    .box:nth-child(2)
+    {
+        background: yellow;
+        height: 200px;
+        width: 200px;
+        // order: 0;
+        // flex-grow: 1;
+        // flex-shrink: 1;
+        // flex-basis: 300px ;
+        flex: 0  0 250px;
+
+
+
+    }
+    .box:nth-child(3)
+    {
+        background: green;
+        height: 200px;
+        width: 200px;
+        // order: 4;
+        // flex-grow: 1;
+        // flex-shrink: 1;
+        // flex-basis: 300px ;
+        flex: 0  0 250px;
+    }
+    .box:nth-child(4)
+    {
+        background: blue;
+        height: 200px;
+        width: 200px;
+        // order: 3;
+        // flex-grow: 1; 
+        // flex-shrink: 1;
+        // flex-basis: 300px ;
+        flex: 0  0 250px;
+    }
+
+}
